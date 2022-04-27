@@ -23,79 +23,14 @@ hous=new Date().getHours();
 var AmOrPm = hous >='12' ? 'PM' : 'AM';
 document.getElementById('am-pm-div').innerHTML=AmOrPm;
 
-
-
-// const tim= new Date().getHours();
-
-// //FOR MORNING
-// if (tim >'4' && tim<='11')
-// {
-// 	oj="GOOD MORNING!! WAKE UP !!";
-// 	ojj="GRAB SOME HEALTHY BREAKFAST!!!";
-
-// document.getElementById('good-morning-div').innerHTML=oj;
-// document.getElementById('large-img-div').style.backgroundImage='url(comp.jpg)';
-// document.getElementById('next-div').innerHTML=ojj;
-
-// }
-
-
-
-
-
-
-// //FOR AFTERNOON
-
-// let obj, obbj;
-// if (tim >'11' && tim<='16')
-// {
-// 	obj="GOOD AFTERNOON !!";
-// 	obbj="LET'S HAVE SOME LUNCH !!!";
-
-// document.getElementById('good-morning-div').innerHTML=obj;
-// document.getElementById('large-img-div').style.backgroundImage='url(aft.jpg)';
-// document.getElementById('next-div').innerHTML=obbj;
-
-// }
-
-
-
-
-
-// //FOR EVENING
-// else if(tim>'16' && tim<='19'  )
-// {
-// 		fg="GOOD EVENING !!";
-// 		ffg="STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!";
-// document.getElementById('good-morning-div').innerHTML=fg;
-// document.getElementById('large-img-div').style.backgroundImage='url(ee.jpg)';
-// document.getElementById('next-div').innerHTML=ffg;
-// }
-
-
-
-
-// //FOR NIGHT
-// else if( tim>'19' || tim<='4')
-// {
-// 	mg="GOOD NIGHT !!";
-// 	mgg="CLOSE YOUR EYES AND GO TO SLEEP";
-// document.getElementById('good-morning-div').innerHTML=mg;
-// document.getElementById('large-img-div').style.backgroundImage='url(mrng.jpg)';
-// document.getElementById('next-div').innerHTML=mgg;
-
-// }
-
-
-
-
-
-
 }
 
 setInterval(clock,1000);
 
 
+
+
+//for dynamic div timings update
 
 function make(){
 	var invalue=document.getElementById("dropdown1");
@@ -121,10 +56,12 @@ document.getElementById("js-update-div").style.visibility="visible";
 }
 
 
+
+
+
+
+
 var ht=new Date().getHours();
-
-
-
 
 
 
@@ -141,7 +78,6 @@ document.getElementById('next-div').innerHTML=ojj;
 
     }
 }
-
 
 
 
