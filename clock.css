@@ -606,7 +606,7 @@ text-align: center;
 }
 .message-box-2{
 	position: absolute;
-	background-color: white;
+	background-color: red;
 	height: 11%;
 	top: 1.5%;
 	right: 2%;
